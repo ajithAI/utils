@@ -5,3 +5,4 @@ mkdir build && cd build
 ../configure --sbindir=/usr/bin/python3.9
 make
 make install
+pip3 install -U setuptools setuptools_scm wheel
