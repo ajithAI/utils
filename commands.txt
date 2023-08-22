@@ -1,0 +1,1 @@
+sudo docker run -it -v /scratch/ajith:/home/ajith -w /home/ajith --gpus all --net=host --privileged --ipc=host --ulimit memlock=-1 --ulimit stack=67108864 --name PT_GPU_PY3 nvcr.io/nvidia/pytorch:23.02-py3 bash
