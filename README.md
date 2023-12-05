@@ -13,7 +13,7 @@ Calibration : <br>
 wget https://raw.githubusercontent.com/mlcommons/inference/master/calibration/ImageNet/cal_image_list_option_1.txt -O cal_image_list_option_1.txt <br> 
 ```
 
-<br>
+
 COCO 2017 Validation Dataset : <br>
 ```
 wget http://images.cocodataset.org/zips/val2017.zip <br>
