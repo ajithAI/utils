@@ -1,9 +1,6 @@
 # utils
 Utils for All Modules
 
-<br>
-<br>
-
 ISLVRC : <br>
 ```
 wget https://image-net.org/data/ILSVRC/2012/ILSVRC2012_img_val.tar -O ILSVRC2012_img_val.tar <br>
