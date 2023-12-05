@@ -8,7 +8,6 @@ wget https://image-net.org/data/ILSVRC/2012/ILSVRC2012_img_test_v10102019.tar -O
 wget https://image-net.org/data/ILSVRC/2012/ILSVRC2012_devkit_t12.tar.gz -O ILSVRC2012_devkit_t12.tar.gz <br>
 ```
 
-<br>
 Calibration : <br>
 ```
 wget https://raw.githubusercontent.com/mlcommons/inference/master/calibration/ImageNet/cal_image_list_option_1.txt -O cal_image_list_option_1.txt <br> 
