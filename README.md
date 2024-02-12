@@ -18,3 +18,16 @@ wget https://raw.githubusercontent.com/mlcommons/inference/master/calibration/Im
 wget http://images.cocodataset.org/zips/val2017.zip
 wget http://images.cocodataset.org/annotations/annotations_trainval2017.zip
 ```
+
+#### Jupyter Notebook 
+```
+apt-get update
+apt-get install vim git -y
+pip install jupyter
+pip install --upgrade notebook==6.4.12
+pip install jupyter_contrib_nbextensions
+jupyter contrib nbextension install --user
+pip uninstall traitlets
+pip install traitlets==5.9.0
+jupyter notebook --ip="*" --allow-root
+```
